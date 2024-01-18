@@ -15,13 +15,13 @@
 # Create new anaconda environment for this class
 
 ```sh
-conda create --name anlp python=3.11
+conda create --name intronlp python=3.11
  ```
 
 # Activate environment
 
 ```sh
-source activate anlp
+source activate intronlp
 ```
 
 # Check version (should be 3.11.4)
@@ -70,7 +70,7 @@ python -m spacy download en_core_web_sm
 That's it! Whenever you're ready to use a Jupyter notebook in this setup, open up the terminal and navigate to the folder containing the notebook; then activate the anlp environment to access these libraries and start up the notebook:
 
 ```sh
-source activate anlp
+source activate intronlp
 jupyter notebook
 ```
 
@@ -78,10 +78,10 @@ We'll be using Jupyter notebooks extensively in this class; if you're new to the
 
 * [Jupyter notebook tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 
-If you haven't used Github before, you'll just need it to pull course materials (notebooks, data) from the anlp repo.
+If you haven't used Github before, you'll just need it to pull course materials (notebooks, data) from the intronlp repo.
 
 * [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* `git clone git@github.com:dbamman/anlp23.git` or `git clone https://github.com/dbamman/anlp23.git`
+*  `git clone https://github.com/chautong/nlp_copy.git`
 * Whenever you want to update your local copy: `git pull`
 
 See here for an intro to Git/Github:
