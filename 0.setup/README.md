@@ -24,7 +24,7 @@ conda create --name intronlp python=3.11
 source activate intronlp
 ```
 
-# Check version (should be 3.11.4)
+# Check version (should be 3.11.7)
 
 ```sh
 python --version 
